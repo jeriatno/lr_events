@@ -71,7 +71,7 @@
             <div class="container-fluid row">
                 <div class="col-md-5 content">
                     <div class="bg">
-                        <img src="{{ asset('laravel-events.png') }}" alt="laravel-events" width="500px">
+                        <img src="{{ asset('laravel-events.png') }}" alt="laravel-events" width="500px" class="img-fluid">
                     </div>
                     <div class="link">
                         <a href="https://medium.com/@jeriatno/laravel-events-b91102aa0eb3" target="_blank">Visit this article...</a>
