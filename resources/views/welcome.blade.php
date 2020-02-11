@@ -74,30 +74,32 @@
                         <img src="{{ asset('laravel-events.png') }}" alt="laravel-events" width="500px">
                     </div>
                     <div class="link">
-                        <a href="https://medium.com/@jeriatno/laravel-fractal-cbe9745e14f4">Visit this article...</a>
+                        <a href="https://medium.com/@jeriatno/laravel-events-b91102aa0eb3" target="_blank">Visit this article...</a>
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="col-md-12">
-                        <form action="{{ route('user.store') }}" method="post">
-                            @csrf
-                            <div class="form-group row">
-                                <label class="col-md-3">Username:</label>
-                                <input class="form-control col-md-7" type="text" name="name" placeholder="Username" autocomplete="off" />
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-3">Email:</label>
-                                <input type="email" class="form-control col-md-7" name="email" placeholder="Email" autocomplete="off"/>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-md-3">Password:</label>
-                                <input class="form-control col-md-7" type="password" name="password" placeholder="Password" />
-                            </div>
-                            <div class="form-group row btn-group">
-                                <button class="btn btn-dark mt-3" type="reset">Reset</button>
-                                <button class="btn btn-primary mt-3" type="submit">Submit</button>
-                            </div>
-                        </form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="{{ route('user.store') }}" method="post">
+                                @csrf
+                                <div class="form-group row">
+                                    <label class="col-md-3">Username:</label>
+                                    <input class="form-control col-md-7" type="text" name="name" placeholder="Username" autocomplete="off" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3">Email:</label>
+                                    <input type="email" class="form-control col-md-7" name="email" placeholder="Email" autocomplete="off"/>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3">Password:</label>
+                                    <input class="form-control col-md-7" type="password" name="password" placeholder="Password" />
+                                </div>
+                                <div class="form-group row btn-group">
+                                    <button class="btn btn-dark mt-3" type="reset">Reset</button>
+                                    <button class="btn btn-primary mt-3" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
